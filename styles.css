@@ -12,9 +12,13 @@ body {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(0, 32, 64, 0.85);
     min-height: 100vh;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .main-header {
