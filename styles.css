@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    background: url("stars.png") no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.main-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #9df;
+}
+
+.main-header p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.main-nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-nav a {
+    color: #8f8;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.intro {
+    background: rgba(25, 35, 45, 0.9);
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: rgba(25, 35, 45, 0.9);
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 8px black;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: yellow;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #aaa;
+    font-size: 0.9em;
+}
